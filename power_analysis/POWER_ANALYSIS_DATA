@@ -1,0 +1,81 @@
+T-Spice - Tanner SPICE
+T-Spice - Tanner SPICE
+Version 2019.2
+License validated.
+Product Release ID: T-Spice Win64 2019.2.20190514.20:23:23
+Copyright (C)1988-2019 Mentor, a Siemens Business
+
+Input folder         = C:\Users\joyba\AppData\Local\Temp\
+Output folder        = C:\Users\joyba\AppData\Local\Temp\FULL_ADDER
+
+	Parsing "C:\Users\joyba\AppData\Local\Temp\FULL_ADDER.sp"
+	Reading library entry "TT" from "C:\Users\joyba\OneDrive\Documents\TannerEDA\TannerTools_v2019.2\Process\Generic_250nm\Models\Generic_250nm.lib"
+	Reading library entry "GEN" from "C:\Users\joyba\OneDrive\Documents\TannerEDA\TannerTools_v2019.2\Process\Generic_250nm\Models\Generic_250nm.lib"
+	Reading library entry "GEN_LVS" from "C:\Users\joyba\OneDrive\Documents\TannerEDA\TannerTools_v2019.2\Process\Generic_250nm\Models\Generic_250nm.lib"
+	Reading library entry "Diodes" from "C:\Users\joyba\OneDrive\Documents\TannerEDA\TannerTools_v2019.2\Process\Generic_250nm\Models\Generic_250nm.lib"
+	Reading library entry "RES_CAP_GEN" from "C:\Users\joyba\OneDrive\Documents\TannerEDA\TannerTools_v2019.2\Process\Generic_250nm\Models\Generic_250nm.lib"
+	Reading library entry "SIM_SUBCIRCUITS" from "C:\Users\joyba\OneDrive\Documents\TannerEDA\TannerTools_v2019.2\Process\Generic_250nm\Models\Generic_250nm.lib"
+	Reading library entry "TT_NMOS" from "C:\Users\joyba\OneDrive\Documents\TannerEDA\TannerTools_v2019.2\Process\Generic_250nm\Models\Generic_250nm.lib"
+	Reading library entry "NMOS_MODEL" from "C:\Users\joyba\OneDrive\Documents\TannerEDA\TannerTools_v2019.2\Process\Generic_250nm\Models\Generic_250nm.lib"
+	Reading library entry "TT_PMOS" from "C:\Users\joyba\OneDrive\Documents\TannerEDA\TannerTools_v2019.2\Process\Generic_250nm\Models\Generic_250nm.lib"
+	Reading library entry "PMOS_MODEL" from "C:\Users\joyba\OneDrive\Documents\TannerEDA\TannerTools_v2019.2\Process\Generic_250nm\Models\Generic_250nm.lib"
+	Reading library entry "RES_TYP" from "C:\Users\joyba\OneDrive\Documents\TannerEDA\TannerTools_v2019.2\Process\Generic_250nm\Models\Generic_250nm.lib"
+	Reading library entry "RES_SUBCIRCUITS" from "C:\Users\joyba\OneDrive\Documents\TannerEDA\TannerTools_v2019.2\Process\Generic_250nm\Models\Generic_250nm.lib"
+	Reading library entry "CAP_TYP" from "C:\Users\joyba\OneDrive\Documents\TannerEDA\TannerTools_v2019.2\Process\Generic_250nm\Models\Generic_250nm.lib"
+	Reading library entry "CAP_SUBCIRCUITS" from "C:\Users\joyba\OneDrive\Documents\TannerEDA\TannerTools_v2019.2\Process\Generic_250nm\Models\Generic_250nm.lib"
+	Reading library entry "TT_Bipolar" from "C:\Users\joyba\OneDrive\Documents\TannerEDA\TannerTools_v2019.2\Process\Generic_250nm\Models\Generic_250nm.lib"
+	Reading library entry "Bipolars" from "C:\Users\joyba\OneDrive\Documents\TannerEDA\TannerTools_v2019.2\Process\Generic_250nm\Models\Generic_250nm.lib"
+
+Start of FULL_ADDER.sp
+Loaded BSIM3v33 model library, Berkeley BSIM3 v3.3.0
+Loaded BSIM3v31 model library, Berkeley BSIM3 v3.1.0 with extensions
+Loaded BJT model library, Gummel-Poon Bipolar with extensions
+
+General options:
+        threads = 1
+
+ Device and node counts:
+              MOSFETs -      28
+    MOSFET geometries -       2
+      Voltage sources -       4
+   Subckt Definitions -       1
+     Subckt Instances -       0
+    Model Definitions -       9
+      Computed Models -       2
+    Independent nodes -      72
+       Boundary nodes -       5
+          Total nodes -      77
+
+	Opening simulation database "C:\Users\joyba\AppData\Local\Temp\FULL_ADDER.tsim"
+
+Power Results
+
+vv1 from time 0 to 4e-07
+Average power consumed -> 4.288570e-04 watts
+Max power 1.170067e-02 at time 3.80535e-07 
+Min power 1.099020e-08 at time 1e-08 
+
+Vv2 from time 0 to 4e-07
+Average power consumed -> 6.788142e-06 watts
+Max power 8.865697e-04 at time 3.1e-08 
+Min power 0.000000e+00 at time 0 
+
+Vv3 from time 0 to 4e-07
+Average power consumed -> 2.307417e-06 watts
+Max power 6.290432e-04 at time 1.91e-07 
+Min power 0.000000e+00 at time 0 
+
+Vv4 from time 0 to 4e-07
+Average power consumed -> 5.925249e-06 watts
+Max power 9.018754e-04 at time 3.71e-07 
+Min power 0.000000e+00 at time 0 
+
+
+Parsing                      0.06 seconds
+Setup                        0.01 seconds
+Transient Analysis           0.11 seconds
+Overhead                     0.37 seconds
+-----------------------------------------
+Total                        0.55 seconds
+
+Simulation completed
