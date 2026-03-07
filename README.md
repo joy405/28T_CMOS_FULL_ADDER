@@ -1,4 +1,4 @@
-# CMOS Full Adder using Tanner EDA
+# 28T CMOS Full Adder using Tanner EDA
 
 ## Tools Used
 - Tanner S-Edit
