@@ -224,6 +224,5 @@ The completed layout was successfully extracted using **Tanner L-Edit**, generat
 | Number of Transistors | 28 |
 
 ---
-## Conclusion
 
-This project demonstrates the complete implementation of a **28-Transistor Complementary Static CMOS Full Adder** using **Tanner EDA** in **250 nm CMOS technology**. The design was successfully implemented from schematic capture to physical layout, followed by transient simulation, average power analysis, propagation delay measurement, layout generation, DRC verification, and extracted SPICE netlist generation.
+**Note:** All the schematic design, transient simulation, power analysis, propagation delay analysis, and layout implementation were performed using **Tanner EDA**. **Tanner S-Edit** was used for schematic design, **T-Spice** for circuit simulation and performance analysis, and **Tanner L-Edit** for physical layout implementation in **Generic 250 nm CMOS technology**. The generated layout satisfies all the design rules specified for the selected technology, resulting in a **DRC-clean** layout. The width of each **PMOS transistor** was maintained at **twice the width of the corresponding NMOS transistor** to ensure balanced rise and fall characteristics.
