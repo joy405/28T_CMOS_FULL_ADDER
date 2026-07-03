@@ -65,7 +65,7 @@ The schematic was verified through transient simulation to ensure correct functi
 ---
 
 <p align="center">
-<img width="900" alt="28T CMOS Full Adder Schematic" src="SCHEMATIC/SCHEMATIC_FULL_ADDER(2).png">
+<img width="1500" alt="28T CMOS Full Adder Schematic" src="SCHEMATIC/SCHEMATIC_FULL_ADDER(2).png">
 </p>
 
 <p align="center">
@@ -80,7 +80,7 @@ A reusable symbol of the 28T CMOS Full Adder was created in **Tanner S-Edit** to
 ---
 
 <p align="center">
-<img width="500" alt="28T CMOS Full Adder Symbol" src="SYMBOL/SYMBOL_FULL_ADDER.png">
+<img width="1000" alt="28T CMOS Full Adder Symbol" src="SYMBOL/SYMBOL_FULL_ADDER.png">
 </p>
 
 <p align="center">
@@ -113,48 +113,58 @@ The measured results provide an estimate of the circuit's power efficiency under
 
 ---
 
-<p align="center">
-<img width="550" height="629" alt="Screenshot 2026-07-03 220339" src="https://github.com/user-attachments/assets/5a9b572d-eb79-4d14-8ec8-bb63219564ca" />
-
-</p>
-
-<p align="center">
-<b>Fig 7: power analysis of the proposed 28T CMOS Full Adder.</b>
-</p>
-
----
 ## Propagation Delay Analysis
 
-Propagation delay is a key performance parameter that determines the switching speed of a CMOS circuit. The propagation delay of the proposed **28T CMOS Full Adder** was evaluated using **T-Spice** by measuring the **low-to-high (tPLH)** and **high-to-low (tPHL)** transition delays for both the **SUM** and **CARRY** outputs.
-
-The measured delays verify the timing performance of the proposed design and provide an estimate of its operating speed under the applied input conditions.
-
----
-
 <table align="center">
+
 <tr>
 <td align="center">
-<img width="400" alt="SUM tPLH" src="PROPAGATION_DELAY/T(sum)lph.png"><br>
+
+<img width="850" alt="SUM tPLH" src="https://github.com/user-attachments/assets/c23bbdc7-3d66-4193-9e96-b106e81591e6">
+
+<br>
+
 <b>(a) SUM – tPLH</b>
-</td>
 
-<td align="center">
-<img width="400" alt="SUM tPHL" src="PROPAGATION_DELAY/T(SUM)phl.png"><br>
-<b>(b) SUM – tPHL</b>
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<img width="400" alt="CARRY tPLH" src="PROPAGATION_DELAY/T(carry)lph.png"><br>
-<b>(c) CARRY – tPLH</b>
-</td>
 
-<td align="center">
-<img width="400" alt="CARRY tPHL" src="PROPAGATION_DELAY/T(carry)phl.png"><br>
-<b>(d) CARRY – tPHL</b>
+<img width="850" alt="SUM tPHL" src="https://github.com/user-attachments/assets/44318b94-49b5-45d3-b339-a98ce28fc397">
+
+<br>
+
+<b>(b) SUM – tPHL</b>
+
 </td>
 </tr>
+
+<tr>
+<td align="center">
+
+<img width="850" alt="CARRY tPLH" src="https://github.com/user-attachments/assets/19fd5c61-2502-4895-8a77-0047feba35fd">
+
+<br>
+
+<b>(c) CARRY – tPLH</b>
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+<img width="850" alt="CARRY tPHL" src="https://github.com/user-attachments/assets/6a05e490-ac74-4483-b948-aec8a414e8cb">
+
+<br>
+
+<b>(d) CARRY – tPHL</b>
+
+</td>
+</tr>
+
 </table>
 
 <p align="center">
